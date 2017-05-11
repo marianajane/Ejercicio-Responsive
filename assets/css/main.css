@@ -1,0 +1,62 @@
+body{
+  margin: 0 auto;
+  padding: 0 auto;
+  background-color: pink;
+  width: 100%;
+  max-width: 1200px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.5vw;
+}
+
+.container{
+  width: 100%;
+  margin: 0px auto;
+}
+
+.img-container{
+  position: relative;
+}
+
+.img{
+  width: 100%;
+}
+
+.texto{
+  margin: 10%;
+  position: absolute;
+  text-align: center;
+  color: white;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 1200px) {
+    body {
+        background-color: lightblue;
+        font-size: 2.5vw;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    body {
+        background-color: orange;
+        font-size: 2.5vw;
+    }
+}
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: purple;
+        font-size: 2.5vw;
+    }
+}
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: yellow;
+        font-size: 2.5vw;
+    }
+}
+@media only screen and (max-width: 320px) {
+    body {
+        background-color: green;
+        font-size:  2vw;
+    }
+}
+
